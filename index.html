@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brown Bears Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Brown Bears Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>What is a Brown Bear?</h2>
+                <h3>Read time: 5 minutes.</h3>
+            </header>
+            <p>Brown bears, scientifically known as Ursus arctos, are large, powerful mammals found across North America, Europe, and Asia. Renowned for their size, with some individuals weighing up to 1,500 pounds, brown bears have a distinctive hump of muscle over their shoulders that gives them great strength. Their fur can range in color from light tan to dark brown, with some even appearing nearly black. These omnivorous creatures have a varied diet that includes fruits, nuts, fish, small mammals, and carrion. Brown bears are known for their solitary nature, though they sometimes gather in large numbers where food is plentiful, such as during salmon runs. They hibernate during winter, relying on fat stores built up over the summer and fall. Despite their formidable appearance, brown bears play a crucial role in their ecosystems, helping to maintain the balance by dispersing seeds and scavenging.</p>
+            <blockquote>
+                <cite>"What a <a href="#">animal</a>!" - Gerard, 2024</cite>
+            </blockquote>
+        </article>
+        <img src="https://placebear.com/200/300" alt="A brown bear in the wild" style="width:20%; height:20;">
+
+
+        <aside>
+            <section>
+                <div class="filter-section">
+                    <h4>Filter by Type of Brown Bear</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Filter for Grizzly</a></li>
+                            <li><a href="#">Filter for Kodiak</a></li>
+                            <li><a href="#">Filter for Himalayan</a></li>
+                            <li><a href="#">Filter for Ussuri</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            
+            <section>
+                <h4>Filter by Category Animal</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Bear</a></li>
+                        <li><a href="#">Dogs</a></li>
+                        <li><a href="#">Cats</a></li>
+                        <li><a href="#">Hedgehog</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+
+        <!-- Newsletter section -->
+        <div class="newsletter-container">
+            <hr>
+            <h2>Sign Up to Our Newsletter!</h2>
+            <form action="" method="post">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+                <br>
+
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+
+                <label>Favourite Animal:</label>
+                <input type="radio" id="dog" name="favourite_animal" value="dog">
+                <label for="dog">Dog</label>
+                <input type="radio" id="cat" name="favourite_animal" value="cat">
+                <label for="cat">Cat</label>
+                <input type="radio" id="hedgehog" name="favourite_animal" value="hedgehog">
+                <label for="hedgehog">Hedgehog</label>
+                <br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="england">England</option>
+                    <option value="scotland">Scotland</option>
+                    <option value="wales">Wales</option>
+                    <option value="northern_ireland">Northern Ireland</option>
+                </select>
+                <br>
+
+                <label for="bio">Biography:</label>
+                <textarea id="bio" name="bio" cols="30" rows="10"></textarea>
+                <br>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to our Newsletter</label>
+                <br>
+
+                <input type="submit" value="Send!">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Brown Bear Blog</h2>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Cookies Policy</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>
